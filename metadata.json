@@ -1,0 +1,6 @@
+{
+  "name": "AtheroTrack - Clinical Cholesterol & Heart Nutrition Tracker",
+  "description": "Evidence-based cholesterol, saturated fat, and soluble fiber intake tracker inspired by OpenNutriTracker and Cronometer. Features comprehensive USDA food database, blood lipid panel tracking, smart heart-healthy swaps, and clinical risk metrics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

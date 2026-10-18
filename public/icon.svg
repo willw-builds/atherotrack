@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="cardioGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="50%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#be123c"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#881337" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded rectangle for Android squircle -->
+  <rect width="512" height="512" rx="115" fill="url(#cardioGrad)"/>
+
+  <!-- Inner subtle border -->
+  <rect x="12" y="12" width="488" height="488" rx="103" fill="none" stroke="#ffffff" stroke-width="6" stroke-opacity="0.15"/>
+
+  <!-- Cardiovascular Heart & Pulse Wave SVG Symbol -->
+  <g filter="url(#shadow)">
+    <!-- Heart outline -->
+    <path d="M256 420 C 130 320 64 245 64 165 C 64 100 115 50 180 50 C 220 50 248 72 256 90 C 264 72 292 50 332 50 C 397 50 448 100 448 165 C 448 245 382 320 256 420 Z"
+          fill="#ffffff" fill-opacity="0.95"/>
+    
+    <!-- Heartbeat Pulse Line Inside -->
+    <path d="M120 230 L 190 230 L 220 160 L 256 310 L 290 190 L 320 230 L 392 230"
+          fill="none" stroke="#e11d48" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Shield protection badge in top right -->
+  <circle cx="390" cy="120" r="42" fill="#10b981" stroke="#ffffff" stroke-width="6"/>
+  <path d="M375 120 L 386 131 L 406 110" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
