@@ -20,7 +20,7 @@ interface AndroidGitHubModalProps {
 
 export const AndroidGitHubModal: React.FC<AndroidGitHubModalProps> = ({ isOpen, onClose }) => {
   const [copiedSection, setCopiedSection] = useState<string | null>(null);
-  const [gitUsername, setGitUsername] = useState('willieyw9');
+  const [gitUsername, setGitUsername] = useState('dreamcrusher98');
   const [gitRepoName, setGitRepoName] = useState('atherotrack');
 
   if (!isOpen) return null;

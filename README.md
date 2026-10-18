@@ -70,7 +70,7 @@ From Android Studio, you can run the app on any connected Android device, emulat
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/atherotrack.git
+git clone https://github.com/dreamcrusher98/atherotrack.git
 cd atherotrack
 
 # Install dependencies
